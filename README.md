@@ -45,3 +45,7 @@ function Navigation(e){e=e||{},this.viewportModal=e.viewport||"[id^='sp_message_
 window.onload = function () { window.tileNavigation = new Navigation();};
 </script>
 ```
+
+## Global Privacy Platform (GPP) Multi-State Privacy (MSPS) Support
+
+In order to enable the MSPS on your web property that is also utilizing the U.S. Privacy String your organization will need to add a GPP stub file and GPP parameter(s) to your `index.html` file. [Click here](https://docs.sourcepoint.com/hc/en-us/articles/18007731422099-Enable-GPP-Multi-State-Privacy-String-MSPS-with-U-S-Privacy-CCPA-solution) for more information on this implementation. 
